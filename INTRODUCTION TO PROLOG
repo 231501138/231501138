@@ -76,4 +76,14 @@ truck(car(chevy)).
 
 OUTPUT:
 
+OWNS(JOHBN,X)
+X=CAR(CHVY).
+OWNS(JOHN,_).
+true.
+owns(who car(chevy))
+who=john.
+owns(jane,X),sedan(x).
+false.
+owns(jane,X),truck(X).
+x=car(chevy).
 
